@@ -7,7 +7,11 @@ public class Area {
         return Math.abs(area);
     }
 
-//    public static int rectangleArea(Point a, Point b, Point c, Point d){
-//        int
-//    }
+    public static double circleAreaWithPieNum(double radius){
+        return radius * radius * 3.14;
+    }
+
+    public static double circleAreaWithMathPI (double radius){
+        return radius * radius * Math.PI;
+    }
 }

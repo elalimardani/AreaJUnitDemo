@@ -17,6 +17,7 @@ public class Point {
         setY(scanner.nextInt());
     }
 
+
     public int getX() {
         return x;
     }
