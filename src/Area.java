@@ -7,7 +7,7 @@ public class Area {
         return Math.abs(area);
     }
 
-    public static double circleAreaWithPieNum(double radius){
+    public double circleAreaWithPieNum(double radius){
         return radius * radius * 3.14;
     }
 
