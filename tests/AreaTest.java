@@ -44,11 +44,11 @@ public class AreaTest {
         assertEquals(actualTestArea, expectedArea, "The method should return the area of the given triangle");
     }
 
-   /* @Test
+   @Test
     public void circleAreaWithPieNumTest(){
        // Area area = new Area();
         assertEquals(314.1592, Area.circleAreaWithPieNum(10), "Expected to Fail - Should return the area of a circle with a method that uses the PI number with 2 digits point.");
-    }*/
+    }
 
     @Test
     public void circleAreaWithMathPI(){
